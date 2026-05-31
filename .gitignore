@@ -1,0 +1,14 @@
+# Ambiente
+.conda
+
+# Python
+__pycache__/
+ml_classifier.egg-info/
+
+# Data
+data/**/*.csv
+
+# Metrics
+artifacts/*.joblist
+metrics/*.json
+models/*.keras
