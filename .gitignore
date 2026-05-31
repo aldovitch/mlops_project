@@ -9,6 +9,6 @@ ml_classifier.egg-info/
 data/**/*.csv
 
 # Metrics
-artifacts/*.joblist
+artifacts/*.joblib
 metrics/*.json
 models/*.keras
