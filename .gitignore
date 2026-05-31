@@ -1,5 +1,6 @@
 # Ambiente
 .conda
+.env
 
 # Artifacts
 artifacts/*.joblib
