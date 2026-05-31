@@ -1,6 +1,9 @@
 # Ambiente
 .conda
 
+# Artifacts
+artifacts/*.joblib
+
 # Python
 __pycache__/
 ml_classifier.egg-info/
@@ -8,9 +11,9 @@ ml_classifier.egg-info/
 # Data
 data/**/*.csv
 
-# Artifacts
-artifacts/*.joblib
-
 # Metrics
 metrics/*.json
 models/*.keras
+
+# MLflow
+mlruns
