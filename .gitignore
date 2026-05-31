@@ -14,3 +14,5 @@ artifacts/*.joblib
 # Metrics
 metrics/*.json
 models/*.keras
+
+*.joblib
