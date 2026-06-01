@@ -1,7 +1,7 @@
 import logging
 from dotenv import load_dotenv
 
-# Load environment variables from .env file
+# Load environment variables from .env file MLOps part 5
 load_dotenv()
 
 # Configure the logging strategy
