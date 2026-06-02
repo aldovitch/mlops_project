@@ -1,4 +1,5 @@
 import logging
+import os
 import time
 
 import numpy as np
@@ -29,9 +30,9 @@ def fetch_data() -> pd.DataFrame:
     # Target column
     data["target"] = dataset.target
     
-    # shuffle the data to ensure "changes" to force reprocessing
+    # Shuffle data to simulate changed data
     data = data.sample(frac=1, random_state=int(time.time())).reset_index(drop=True)
-    
+
     return data
 
 
